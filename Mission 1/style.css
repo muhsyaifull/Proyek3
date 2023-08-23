@@ -1,0 +1,79 @@
+.light {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.box {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.kuning {
+    background-color: yellow;
+} 
+
+.hitam {
+    grid-column: 2 /  span 3;
+    background-color: black;
+    color: white; 
+}
+
+.biru {
+    grid-column: 4/4/5/5;
+    background-color: skyblue; 
+}
+
+.pink { 
+    grid-area: 2 / 3 / span 2;
+    background-color: rgb(226, 120, 137);
+}
+
+.coklat {
+    background-color : brown;
+    color: white;
+}
+
+.hijau {
+    background-color :green;   
+}
+
+.putih {
+    background-color :white;
+}
+
+.ungu {
+    grid-area: 3/4/6/5;
+    background-color :purple;
+    color: white;
+}
+
+.abu {
+    background-color: grey;
+    grid-column: 2 /  span 2  ;
+}
+
+.hijau {
+    background-color :green;  
+}
+
+.birutua {
+    background-color : blue;
+    grid-area: 4 / 1 / span 2
+}
+
+.orange {
+    grid-column: 2 / span 2;
+    background-color :orange;
+}
+
+.merah {
+    background-color : red; 
+}
+
